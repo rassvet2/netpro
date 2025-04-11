@@ -4,11 +4,8 @@
 package tdu_iwai;
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
-
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        System.out.println("Hello Network Programing and Cloud System Deveopment World.");
+        Hello.main(args);
     }
 }
