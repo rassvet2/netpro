@@ -1,0 +1,50 @@
+  ./gradlew run --console=plain -Pmain="tdu_iwai.PrintYourAge"
+> Task :app:compileJava UP-TO-DATE
+> Task :app:processResources UP-TO-DATE
+> Task :app:classes UP-TO-DATE
+
+> Task :app:run
+Enter your age (q or e to exit)
+> 21
+You are 21 years old.
+You will be 31 years old after 10 years.
+You will be 26 years old when 2030
+Your birth is 平成16
+Enter your age (q or e to exit)
+> 0
+You are 0 years old.
+You will be 10 years old after 10 years.
+You will be 5 years old when 2030
+Your birth is 令和7
+Enter your age (q or e to exit)
+> 119
+You are 119 years old.
+You will be 129 years old after 10 years.
+You will be 124 years old when 2030
+Your birth is 明治39
+Enter your age (q or e to exit)
+> 120
+Are you sure? Enter again.
+Enter your age (q or e to exit)
+> 120
+Very strange age, but continue
+You are 120 years old.
+You will be 130 years old after 10 years.
+You will be 125 years old when 2030
+Your birth is 明治38
+Enter your age (q or e to exit)
+> -1
+Are you sure? Enter again.
+Enter your age (q or e to exit)
+> -1
+Very strange age, but continue
+You are -1 years old.
+You will be 9 years old after 10 years.
+You will be 4 years old when 2030
+Your birth is 令和8
+Enter your age (q or e to exit)
+> e
+Exit
+
+BUILD SUCCESSFUL in 21s
+3 actionable tasks: 1 executed, 2 up-to-date

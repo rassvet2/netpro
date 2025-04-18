@@ -21,6 +21,7 @@ public class PrintYourAge {
                 System.out.println("Enter your age (q or e to exit)");
                 System.out.print("> ");
                 if (!in.hasNextInt()) {
+
                     if (!in.hasNext()) {
                         System.err.println("No next token is met");
                         break;
@@ -30,7 +31,7 @@ public class PrintYourAge {
                     if (next.equals("e") || next.equals("q")) {
 
                         System.err.println("Exit");
-                        continue;
+                        break;
                     } else {
                         System.err.println("Non integer token is met");
                         continue;
@@ -49,6 +50,8 @@ public class PrintYourAge {
 
                     System.out.println("Very strange age, but continue");
                 }
+
+                pendingAge = Optional.empty();
 
                 System.out.println("You are " + age + " years old.");
                 System.out.println("You will be " + (age + 10) + " years old after 10 years.");
