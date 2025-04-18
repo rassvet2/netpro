@@ -36,6 +36,18 @@ application {
     val main = project.findProperty("main");
     // Define the main class for the application.
     mainClass = if (main is String) { main } else { "tdu_iwai.App" }
+
+    applicationDefaultJvmArgs = listOf("-Dsun.stdout.encoding=UTF-8", "-Dsun.stderr.encoding=UTF-8")
+}
+
+tasks.withType<JavaCompile> {
+	options.compilerArgs.add("-Aproject=${project.group}/${project.name}")
+    options.encoding = "UTF-8"
+}
+
+tasks.withType<JavaExec> {
+    enableAssertions = true
+    standardInput = System.`in`
 }
 
 tasks.named<Test>("test") {
