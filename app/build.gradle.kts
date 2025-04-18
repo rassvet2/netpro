@@ -33,8 +33,9 @@ java {
 }
 
 application {
+    val main = project.findProperty("main");
     // Define the main class for the application.
-    mainClass = "tdu_iwai.App"
+    mainClass = if (main is String) { main } else { "tdu_iwai.App" }
 }
 
 tasks.named<Test>("test") {
