@@ -1,4 +1,4 @@
-package tdu_iwai;
+package april0418;
 
 //ユーザの現在の年齢を入力し、10年後の年齢を表示するプログラム
 import java.time.ZonedDateTime;

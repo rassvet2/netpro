@@ -1,4 +1,4 @@
-package tdu_iwai;
+
 
 public class Hello {
     public static void main(String[] args) {

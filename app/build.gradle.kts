@@ -35,7 +35,7 @@ java {
 application {
     val main = project.findProperty("main");
     // Define the main class for the application.
-    mainClass = if (main is String) { main } else { "tdu_iwai.App" }
+    mainClass = if (main is String) { main } else { "App" }
 
     applicationDefaultJvmArgs = listOf("-Dsun.stdout.encoding=UTF-8", "-Dsun.stderr.encoding=UTF-8")
 }

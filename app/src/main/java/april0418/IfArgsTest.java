@@ -1,4 +1,4 @@
-package tdu_iwai;
+package april0418;
 
 public class IfArgsTest {
 	public static void main(String[] args) {

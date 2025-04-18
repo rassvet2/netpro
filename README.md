@@ -6,19 +6,19 @@
 ## 実行
 `-Pmain`に指定することにより、エントリポイントを指定できる。
 ```sh
-./gradlew run -Pmain="tdu_iwai.App"
-./gradlew run -Pmain="tdu_iwai.Hello"
-./gradlew run -Pmain="tdu_iwai.HelloArgs"
+./gradlew run -Pmain="App"
+./gradlew run -Pmain="Hello"
+./gradlew run -Pmain="HelloArgs"
 ```
 
 `--args`を指定することにより、`main`関数に渡す引数を指定できる。
 ```sh
-./gradlew run -Pmain="tdu_iwai.HelloArgs" --args="a b c"
+./gradlew run -Pmain="HelloArgs" --args="a b c"
 ```
 
 `--console=plain`を指定することにより、標準入力するプログラムを実行しやすくなる。
 ```sh
-./gradlew run --console=plain -Pmain="tdu_iwai.PrintYourAge"
+./gradlew run --console=plain -Pmain="PrintYourAge"
 ```
 
 ## 文字コードについて

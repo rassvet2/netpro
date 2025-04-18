@@ -1,4 +1,4 @@
-package tdu_iwai;
+package april0418;
 
 import java.util.Random;
 import java.util.stream.IntStream;

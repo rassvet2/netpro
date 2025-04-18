@@ -1,4 +1,4 @@
-  ./gradlew run --console=plain -Pmain="tdu_iwai.PrintYourAge"
+  ./gradlew run --console=plain -Pmain="PrintYourAge"
 > Task :app:compileJava UP-TO-DATE
 > Task :app:processResources UP-TO-DATE
 > Task :app:classes UP-TO-DATE
