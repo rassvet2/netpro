@@ -1,0 +1,87 @@
+Starting a Gradle Daemon, 2 busy and 8 incompatible and 2 stopped Daemons could not be reused, use --status for details
+> Task :socket-2:compileJava
+> Task :socket-2:processResources NO-SOURCE
+> Task :socket-2:classes
+
+> Task :socket-2:run
+connection established
+local : /127.0.0.1:55970 --- localhost/127.0.0.1:5053 : remote
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+result: 9999991
+
+> Task :socket-2:run FAILED
+2 actionable tasks: 2 executed

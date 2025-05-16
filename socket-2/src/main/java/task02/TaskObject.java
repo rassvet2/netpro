@@ -14,6 +14,13 @@ public class TaskObject implements ITask, Serializable {
     }
 
     @Override
+    public int getExecNumber() {
+        return this.task;
+    }
+
+
+
+    @Override
     public void exec() {
         var primes = Lists.newArrayList(2, 3);
         for (int n = primes.getLast() + 2; n < task; n += 2) {
