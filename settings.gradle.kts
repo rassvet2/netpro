@@ -11,4 +11,4 @@ plugins {
 }
 
 rootProject.name = "tdu_iwai"
-include("app")
+include("app", "socket-1", "socket-2")
