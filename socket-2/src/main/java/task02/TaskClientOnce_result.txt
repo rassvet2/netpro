@@ -1,0 +1,12 @@
+Starting a Gradle Daemon, 2 busy and 7 incompatible and 6 stopped Daemons could not be reused, use --status for details
+> Task :socket-2:compileJava
+> Task :socket-2:processResources NO-SOURCE
+> Task :socket-2:classes
+
+> Task :socket-2:run
+connection established
+local : /127.0.0.1:60863 --- localhost/127.0.0.1:5053 : remote
+result: 99991
+
+BUILD SUCCESSFUL in 10s
+2 actionable tasks: 2 executed
