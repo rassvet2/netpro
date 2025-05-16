@@ -1,0 +1,9 @@
+> Task :socket-2:compileJava UP-TO-DATE
+> Task :socket-2:processResources NO-SOURCE
+> Task :socket-2:classes UP-TO-DATE
+
+> Task :socket-2:run
+たかしへ、ママです。今日の晩御飯はスープ = 20, 特選シーザサラダ = 10, 銀しゃり = 2, ステーキ = 30, モンブラン = 10よ
+
+BUILD SUCCESSFUL in 1s
+2 actionable tasks: 1 executed, 1 up-to-date
